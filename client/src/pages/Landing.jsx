@@ -15,7 +15,7 @@ const Landing = () => {
             job <span>Tracking</span> app
           </h1>
           <p>
-            Full-stack project for a better undestanding of React.js, Node.js
+            Full-stack project for a better understanding of React.js, Node.js
             and Mongodb functionalities.
           </p>
           <Link to="/register" className="btn register-link">
