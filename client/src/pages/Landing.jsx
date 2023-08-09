@@ -15,10 +15,8 @@ const Landing = () => {
             job <span>Tracking</span> app
           </h1>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-            nulla nesciunt totam ea, sunt molestiae quod ducimus voluptas rerum
-            magni! Accusamus quae deserunt aperiam iusto in nesciunt ut officia
-            minima?
+            Full-stack project for a better undestanding of React.js, Node.js
+            and Mongodb functionalities.
           </p>
           <Link to="/register" className="btn register-link">
             Register

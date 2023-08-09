@@ -75,7 +75,6 @@ export const showStats = async (req, res) => {
         acc[title] = count
         return acc
     }, {})
-    console.log(stats)
 
     const defaultStats = {
         pending: stats.pending || 0,
