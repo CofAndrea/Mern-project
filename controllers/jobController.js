@@ -53,7 +53,7 @@ export const getJob = async (req, res) => {
 }
 
 export const updateJob = async (req, res) => {
-    const updatedJob = await Job.findOneAndUpdate(req.params.id, req.body, {
+    const updatedJob = await Job.findByIdAndUpdate(req.params.id, req.body, {
         new: true
     })
     res.status(StatusCodes.OK).json({ msg: 'job modified', job: updatedJob });
@@ -79,7 +79,7 @@ export const showStats = async (req, res) => {
     const defaultStats = {
         pending: stats.pending || 0,
         interview: stats.interview || 0,
-        declined: stats.declinde || 0
+        declined: stats.declined || 0
     }
 
     let monthlyApplications = await Job.aggregate([

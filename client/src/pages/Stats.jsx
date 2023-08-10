@@ -5,14 +5,14 @@ import { useQuery } from "@tanstack/react-query";
 const statsQuery = {
   queryKey: ["stats"],
   queryFn: async () => {
-    const response = await customFetch("/jobs/stats");
+    const response = await customFetch.get("/jobs/stats");
     return response.data;
   },
 };
 
 export const loader = (queryClient) => async () => {
   const data = await queryClient.ensureQueryData(statsQuery);
-  return data;
+  return null;
 };
 
 const Stats = () => {
