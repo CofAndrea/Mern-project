@@ -26,7 +26,7 @@ This application let the user register and populates the database with a bunch o
 -follow this link: [https://mern-course-l0ir.onrender.com](https://mern-course-l0ir.onrender.com)
 
 For local setup:
-You will need a .env file located in the backend with the following keys: NODE_ENV, PORT, MONGO_URL, JWT_SECRET, JWT_EXPIRES_iN, CLOUD_NAME, CLOUD_API_KEY, CLOUD_API_SECRET
+You will need a .env file located in the backend with the following keys: NODE_ENV, PORT, MONGO_URL, JWT_SECRET, JWT_EXPIRES_IN, CLOUD_NAME, CLOUD_API_KEY, CLOUD_API_SECRET
 
 -open terminal and copy this:
 ```
