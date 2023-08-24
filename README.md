@@ -27,17 +27,20 @@ This application let the user register and populates the database with a bunch o
 
 For local setup:
 You will need a .env file located in the backend with the following keys:
-NODE_ENV=
-PORT=
-MONGO_URL=
-JWT_SECRET=
-JWT_EXPIRES_IN=
+-NODE_ENV=
+-PORT=
+-MONGO_URL=
+-JWT_SECRET=
+-JWT_EXPIRES_IN=
 
-CLOUD_NAME=
-CLOUD_API_KEY=
-CLOUD_API_SECRET=
+-CLOUD_NAME=
+-CLOUD_API_KEY=
+-CLOUD_API_SECRET=
 
--open terminal and copy this: npm run dev
+-open terminal and copy this:
+```
+npm run dev
+```
 
 Andrea Coffetti.
 
